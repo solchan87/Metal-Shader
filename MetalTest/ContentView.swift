@@ -18,13 +18,13 @@ struct ContentView: View {
           Text("Gradientify")
         }
         NavigationLink(destination: CRT()) {
-          Text("Remove Red")
+          Text("CRT")
         }
         NavigationLink(destination: CRT2()) {
-          Text("Gradient Subtract")
+          Text("CRT2")
         }
         NavigationLink(destination: RainDrop()) {
-          Text("Pixel Peep")
+          Text("RainDrop")
         }
       }
       .navigationTitle("Shader")
